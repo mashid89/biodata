@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(background.jpg);
+    background-image: url(gambar/background.jpg);
     background-size: cover;
 }
 
@@ -13,6 +13,8 @@ body{
     height: 450px;
     background: rgba(0,0,0,0.6);
 }
+
+
 
 .profile img{
     width: 100px;
@@ -58,3 +60,35 @@ body{
     background:white;
     padding: 5px;
 }
+.link ul{
+    float: right;
+    margin-top: 30px;
+    padding: 25px 20px;
+   
+}
+.link ul li a{
+    padding: 25px 30px;
+    font-size: medium;
+    color: red;
+}
+.link ul li{
+    margin-top: 30px;
+    display: block;
+    clear: both;
+
+}
+.link ul li a:hover{
+    background-color: red;
+    color: white;
+
+}
+.data h3{
+    background-color: white;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.data p{
+    color: white;
+}
+
